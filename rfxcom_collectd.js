@@ -10,8 +10,6 @@
 
   config = require('./config.yml');
 
-  console.log(config);
-
   rfxtrx = new RfxCom.RfxCom(config.rfxcom.usb);
 
   client = new Collectd(config.collectd.interval, config.collectd.host, config.collectd.port);
