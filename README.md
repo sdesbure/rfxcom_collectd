@@ -45,11 +45,15 @@ configure the yaml file accordingly. Here's the default file where you need at l
       channel: 2
 ```
 
-launch the script:
+Launch the script (the user must be able to open a serial port, he must be in the dialout group in debian for example):
 
 ``` bash
 $ node rfxcom_collectd.js
 ```
+
+### Running as daemon
+
+It depends on the distribution / OS used. In debian, change the script put in the helper folder (user and path at least, remember of the dialout group) and copy it into `/etc/init.d`. Change the name in order to have a shorter one.
 
 ## Note on Patches/Pull Requests
 
