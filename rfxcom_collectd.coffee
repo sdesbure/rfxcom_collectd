@@ -3,7 +3,7 @@ RfxCom = require 'rfxcom'
 Collectd = require 'collectdout'
 
 config = require './config.yml'
-console.log config
+# console.log config
 
 rfxtrx = new RfxCom.RfxCom config.rfxcom.usb#, debug: true
 client = new Collectd config.collectd.interval, config.collectd.host, config.collectd.port
