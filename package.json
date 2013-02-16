@@ -1,0 +1,13 @@
+{ "name": "rfxcom_collectd"
+, "description": "Periodically send values retrieved from an rfxcom interface to Collectd"
+, "version": "0.0.1"
+, "main": "./rfxcom_collectd.js"
+, "author": "Sdesbure"
+, "homepage": "https://github.com/sdesbure/rfxcom_collectd"
+, "bugs": "https://github.com/sdesbure/rfxcom_collectd/issues"
+, "maintainers": [{"name": "sdesbure"
+		 ,"email": "sylvain@desbureaux.fr"
+		 ,"web": "https://github.com/sdesbure"
+		 }]
+, "licenses": [{"type": "MIT"}]
+}
