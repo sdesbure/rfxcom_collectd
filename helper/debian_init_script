@@ -39,8 +39,8 @@
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
 # Short-Description: DEBIAN initscript for rfxcom to collect node.js server
-# Description:       ex : irfxcom_collectd is a server that retrieve 
-#                    information from rfxcom module and send them to collect
+# Description:       rfxcom_collectd is a server that retrieve information
+#                    from rfxcom module and send them to collectd
 ### END INIT INFO
 
 # Author: Sylvain Desbureaux <sylvain@desbureaux.fr>
